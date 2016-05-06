@@ -1,0 +1,79 @@
+.reveal .slide-number {
+  font-size: 24pt;
+  color: #ffffff; }
+
+html.img-low div.slide-background.present {
+    background-position: bottom;
+    image-orientation: from-img; }
+
+.pai img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border: none; }
+
+
+.old img {
+  float:right;
+  height: 300px;
+  border: none; }
+
+.old li {
+  width: 50%; }
+
+.old ul {
+  position: absolute;
+  left: 0%;
+  top: 30%; }
+
+.ac img {
+  float: right;
+  height: 250px;
+  margin: 20 20 10px 10px; }
+
+.ac li {
+  width: 50%; }
+
+.ac ul {
+  position: absolute;
+  left: 0%;
+  top: 30%; }
+
+.ar img {
+  float: right;
+  height: 350px;
+  margin: 20 20 10px 10px; }
+
+.ar li {
+  width: 80%; }
+
+.ar ul {
+  position: absolute;
+  left: 0%;
+  top: 30%; }
+
+.image img {
+  float: right;
+  margin: 20 20 10px 10px; }
+
+.image li {
+  width: 80%; }
+
+.image ul {
+  position: absolute;
+  left: 0%;
+  top: 30%; }
+
+  .lfoot {
+  position: absolute; 
+  left: -20%;
+  bottom: -8%;
+  font-size: 24pt;
+  color: #ffffff; }
+
+.footer {
+  position: absolute; 
+  bottom: -8%;
+  left: 25%;
+  font-size: 24pt;
+  color: #ffffff; }
