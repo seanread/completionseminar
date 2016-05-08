@@ -1,0 +1,49 @@
+
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"><strong>NC04</strong></td>
+<td align="left"><strong>NC05</strong></td>
+<td align="left"><strong>NC06</strong></td>
+<td align="left"><strong>NC07</strong></td>
+<td align="left"><strong>Xi et al.<span class="citation"></span></strong></td>
+<td align="left"><strong>Garcia et al.<span class="citation"></span></strong></td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Turbinal region</strong></td>
+<td align="left">18.54</td>
+<td align="left">22.78</td>
+<td align="left">24.62</td>
+<td align="left" >30.722</td>
+<td align="left">12.63</td>
+<td align="left">33.66</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Nasopharynx</strong></td>
+<td align="left">3.84</td>
+<td align="left">5.40</td>
+<td align="left">12.80</td>
+<td align="left">20.09</td>
+<td align="left">16.33</td>
+<td align="left">10.60</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Vestibule</strong></td>
+<td align="left" class="fragment highlight-red" 
+  data-fragment-index="1">3.10</td>
+<td align="left">4.15</td>
+<td align="left">2.81</td>
+<td align="left">4.21</td>
+<td align="left">5.50</td>
+<td align="left">2.41</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Total</strong></td>
+<td align="left">25.48</td>
+<td align="left">32.33</td>
+<td align="left">40.23</td>
+<td align="left">55.07</td>
+<td align="left">34.43</td>
+<td align="left">47.77</td>
+</tr>
+</tbody>

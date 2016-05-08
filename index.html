@@ -73,8 +73,7 @@
 					<ul>
 						<li class="fragment highlight-red" 
 						data-fragment-index="1">Background and literature review</li>
-						<li>model preparation</li>
-						<li>simulation</li>
+						<li>model preparation and solution</li>
 						<li>Geometry</li>
 						<li>Flow characteristics</li>
 						<li>Heat and vapour transfer</li>
@@ -235,8 +234,7 @@
 					<ul>
 						<li>Background and literature review</li>
 						<li class="fragment highlight-red" 
-						data-fragment-index="1">model preparation</li>
-						<li>simulation</li>
+						data-fragment-index="1">model preparation and solution</li>
 						<li>Geometry</li>
 						<li>Flow characteristics</li>
 						<li>Heat and vapour transfer</li>
@@ -266,12 +264,99 @@
 				  <h2>Mesh generation</h2>
 				  <p><img src="images/meshpic/meshpic.png" height="340px"></p>
 					<ul>
-						<li>Unstructured mesh used with prism layers</li>
-						<li>Extensions on Exit and entrance</li>
-						<li>Commercial pakage ICEM used to generate</li>
+						<li>unstructured mesh used with prism layers</li>
+						<li>extensions on exit and entrance</li>
+						<li>commercial pakage ICEM used to generate</li>
 					</ul>
 				</section>
 
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2>Numerical solution</h2>
+
+				  <p style="font-size:28pt"> $$ \rho \nabla v = 0 $$</p>
+
+				  <p style="font-size:28pt"> $$\underbrace{\frac{\partial \phi}{\partial t}}_{local \ acceleration} + \underbrace{v \nabla \phi}_{convection} =  + \underbrace{\Gamma \nabla^2 \phi}_{diffusion} + \underbrace{ S_{\phi} }_{Source\ term}$$ </p>
+
+					<ul>
+						<li>Solved for laminar flow</li>
+						<li>Steady state conditions</li>
+						<li>commercial pakage FLUENT used to generate</li>
+					</ul>
+				</section>
+
+				<section  data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-background-transition="fade" 
+				  data-transition="fade">
+				  
+				  <h2>Outline</h2>
+					<ul>
+						<li>Background and literature review</li>
+						<li>Model preparation and solution</li>
+						<li class="fragment highlight-red" 
+						data-fragment-index="1">Geometry</li>
+						<li>Flow characteristics</li>
+						<li>Heat and vapour transfer</li>
+						<li>Conclusions and future work</li>
+					</ul>
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2>Geometries</h2>
+				  <p><img src="images/geometries.png" height="340px"></p>
+
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2>Coronal Sillouhettes</h2>
+				  <p><img src="images/silhouettes/Silhouettes.png" width="1800px"></p>
+
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2>cross-sectional area</h2>
+				  <p><img src="images/Areavsdistance.png" height="500px"></p>
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2 style="font-size:28pt"> $$\frac{Area}{Perimeter\ length}$$</h2>
+				  <p><img src="images/areavsperimeter.png" height="500px"></p>
+				</section>
+				
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2>sectional volume</h2>
+				  <table style="font-size:22pt" data-external="images/tables/secvol.txt">
+
+</table>
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="zoom">
+				  
+				  <h2>sectional surface area</h2>
+				  <table style="font-size:22pt" data-external="images/tables/secar.txt">
+
+</table>
+				</section>
 			</div>
 
 		</div>
@@ -296,6 +381,7 @@
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/external/external.js', condition: function() { return !!document.querySelector( '[data-external]' ); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'lib/js/fullscreen-img.js' }
@@ -306,6 +392,8 @@
 			Reveal.configure({ slideNumber: 'c/t' });
 
 		</script>
-
+		<script type="text/javascript"
+		    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
 	</body>
 </html>
