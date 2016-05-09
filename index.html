@@ -340,7 +340,7 @@
 				
 				<section data-background=images/bak.jpg 
 				  data-state="img-low" 
-				  data-transition="zoom">
+				  data-transition="slide">
 				  
 				  <h2>sectional volume</h2>
 				  <table style="font-size:22pt" data-external="images/tables/secvol.txt">
@@ -350,13 +350,55 @@
 
 				<section data-background=images/bak.jpg 
 				  data-state="img-low" 
-				  data-transition="zoom">
-				  
+				  data-transition="slide">
 				  <h2>sectional surface area</h2>
-				  <table style="font-size:22pt" data-external="images/tables/secar.txt">
+				  <table style="font-size:22pt" data-external="images/tables/secar.txt"> 
+				  
+				  </table>
 
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="slide">
+				  <h2>effective diameter $\frac{4v}{a}$</h2>
+				  <table style="font-size:22pt" data-external="images/tables/deff.txt">
 </table>
 				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="slide">
+				  <h2>minimal cross sectional area</h2>
+				  <table style="font-size:22pt" data-external="images/tables/mca.html">
+</table>
+				</section>
+
+				<section  data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-background-transition="fade" 
+				  data-transition="fade">
+				  
+				  <h2>Outline</h2>
+					<ul>
+						<li>Background and literature review</li>
+						<li>model preparation and solution</li>
+						<li>Geometry</li>
+						<li class="fragment highlight-red" 
+						data-fragment-index="1">Flow characteristics</li>
+						<li>Heat and vapour transfer</li>
+						<li>Conclusions and future work</li>
+					</ul>
+				</section>
+
+				<section data-background=images/bak.jpg 
+				  data-state="img-low" 
+				  data-transition="slide">
+				  <h2>Pressure drop vs flow rate</h2>
+				  <table style="font-size:22pt" data-external="images/tables/prvsflow.html">
+</table>
+				</section>
+
 			</div>
 
 		</div>
@@ -374,7 +416,10 @@
 				center: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
-
+				math: {
+					mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+					config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+					    },
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -384,16 +429,14 @@
 					{ src: 'plugin/external/external.js', condition: function() { return !!document.querySelector( '[data-external]' ); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'lib/js/fullscreen-img.js' }
+					{ src: 'lib/js/fullscreen-img.js' },
+					{ src: 'plugin/math/math.js', async: true }
 				]
 			});
 
 			Reveal.configure({ slideNumber: true });
 			Reveal.configure({ slideNumber: 'c/t' });
 
-		</script>
-		<script type="text/javascript"
-		    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 		</script>
 	</body>
 </html>
