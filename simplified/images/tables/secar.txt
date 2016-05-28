@@ -1,0 +1,57 @@
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"><strong>NC04</strong></td>
+<td align="left"><strong>NC05</strong></td>
+<td align="left"><strong>NC06</strong></td>
+<td align="left"><strong>NC07</strong></td>
+<td align="left"><strong>Xi et al.<span class="citation"></span></strong></td>
+<td align="left"><strong>Garcia et al.<span class="citation"></span></strong></td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Turbinal region</strong></td>
+<td align="left">170.92</td>
+<td align="left">174.07</td>
+<td align="left">190.44</td>
+<td align="left">163.44</td>
+<td align="left">112.59</td>
+<td align="left">133.50<a ref="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Nasopharynx</strong></td>
+<td align="left">12.20</td>
+<td align="left">12.80</td>
+<td align="left">25.23</td>
+<td align="left">40.42</td>
+<td align="left">40.93</td>
+<td align="left">31.46</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>vestibule</strong></td>
+<td align="left">15.71</td>
+<td align="left">17.37</td>
+<td align="left">12.45</td>
+<td align="left">17.92</td>
+<td align="left">35.58</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>total</strong></td>
+<td align="left" class="fragment highlight-red" 
+  data-fragment-index="1">198.82</td>
+<td align="left">204.25</td>
+<td align="left">228.11</td>
+<td align="left" class="fragment highlight-red" 
+  data-fragment-index="2">221.79</td>
+<td align="left">189.10</td>
+<td align="left" class="fragment highlight-red" 
+  data-fragment-index="3">164.96</td>
+</tr>
+</tbody>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>includes vestibule<a ref="#fnref1"></a></p></li>
+</ol>
+</div>
+
