@@ -63,17 +63,16 @@ html.img-low div.slide-background.present {
   position: absolute;
   left: 0%;
   top: 30%; }
-
   .lfoot {
   position: absolute; 
   left: -20%;
-  bottom: -8%;
+  bottom: -15%;
   font-size: 24pt;
   color: #ffffff; }
 
 .footer {
   position: absolute; 
-  bottom: -8%;
+  bottom: -15%;
   left: 25%;
   font-size: 24pt;
   color: #ffffff; }
