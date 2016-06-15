@@ -1,0 +1,9 @@
+energy equation
+
+species transport
+
+	Species mass fraction held constant at inlet for ambient (20 deg celsius, 50% rh)
+
+Vestibules held at body temp, no vapour transport
+
+Cavities held at body temp, 100 percent relative humidity (Calculated as mass fractions)
